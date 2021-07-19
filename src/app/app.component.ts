@@ -19,6 +19,7 @@ export class AppComponent {
   nd: string = '';
   bg: string = '';
   notAllowed: boolean = false;
+  nishu:string=''
 
   /* toggleHover(event: boolean) {
 
