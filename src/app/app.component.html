@@ -82,7 +82,7 @@
 
 		</ng-template> -->
     <!-- ; cursor:{{nd}} -->
-    <ngx-dropzone ondragenter="onDrag(event)" style=" border-color: {{color}} ; background-color: {{bg}} "
+    <ngx-dropzone ondragenter="onDrag(event)" style=" border-color: {{color}} ; background-color: {{bg}} ; cursor:{{nd}} "
       class=" custom-dropzone" appListner [accept]="'.iuux,.dno'" rejectedFiles [multiple]="false"
       (change)="onSelect($event)">
       <ngx-dropzone-label>
@@ -100,10 +100,10 @@
           <button class="btn1">Browse</button>
         </div>
       </ngx-dropzone-label>
-      <ngx-dropzone-preview style="align-content: center;" ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files"
+      <!-- <ngx-dropzone-preview style="align-content: center;" ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files"
         [file]="f" [removable]="true" (removed)="onRemove(f)">
         <ngx-dropzone-label>{{ f.name }} ({{ f.type }})</ngx-dropzone-label>
-      </ngx-dropzone-preview>
+      </ngx-dropzone-preview> -->
     </ngx-dropzone>
 
 
