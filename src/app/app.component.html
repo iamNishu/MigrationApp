@@ -77,17 +77,21 @@
 			(dropped)="onSelect($event)"  -->
 
   <!-- 	[parentMsg]="color" (childOutput)="getData($event)" -->
+  
   <div>
-    <!-- <ng-template #current>
 
+    <!-- <ng-template #current>
+ class=" custom-dropzone"
 		</ng-template> -->
     <!-- ; cursor:{{nd}} -->
-    <ngx-dropzone ondragenter="onDrag(event)" style=" border-color: {{color}} ; background-color: {{bg}} ; cursor:{{nd}} "
-      class=" custom-dropzone" appListner [accept]="'.iuux,.dno'" rejectedFiles [multiple]="false"
+    <!-- ; cursor:{{nd}}  -->
+    <ngx-dropzone [disableClick]="true" ondragover="onDrag(event)"  ngClass="{{ngclass}}"   style=" border: none; background-color: {{bg}} ;   "
+      appListner [accept]="'.iuux,.dno'" rejectedFiles [multiple]="false" #drop
       (change)="onSelect($event)">
       <ngx-dropzone-label>
-        <img id="u10023_img" class="img "
-          src="https://d1icd6shlvmxi6.cloudfront.net/gsc/31413V/cf/16/f8/cf16f81569114700a54589a24ded1369/images/parameter_migration_-_simple/u10023.svg?token=e5b2c7321ce1efcc7b99a34707af3bec277b9483eee11a69562d09c8b295aa49">
+        <img src="../assets/newfolder.png" /> 
+        <!-- <img id="u10023_img" class="img "
+          src="https://d1icd6shlvmxi6.cloudfront.net/gsc/31413V/cf/16/f8/cf16f81569114700a54589a24ded1369/images/parameter_migration_-_simple/u10023.svg?token=e5b2c7321ce1efcc7b99a34707af3bec277b9483eee11a69562d09c8b295aa49"> -->
         <div class="dragdrop">
           <br />
           <p>Drag&Drop files here</p>
@@ -97,7 +101,7 @@
         </div>
         <br />
         <div>
-          <button class="btn1">Browse</button>
+          <button (click)="drop.showFileSelector()" class="btn1">Browse</button>
         </div>
       </ngx-dropzone-label>
       <!-- <ngx-dropzone-preview style="align-content: center;" ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files"
@@ -110,4 +114,21 @@
 
   </div>
 
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<div class="tabdown">
+  <button class="btnExport">Export</button>
+</div>
 </div>

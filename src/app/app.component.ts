@@ -19,7 +19,7 @@ export class AppComponent {
   nd: string = '';
   bg: string = '';
   notAllowed: boolean = false;
-  
+  ngclass: string ='custom-dropzone'
 
   /* toggleHover(event: boolean) {
 
@@ -70,21 +70,21 @@ export class AppComponent {
   onSelect(event: any) {
     if (event.rejectedFiles.length > 0) {
       this.color = 'red';
-      this.nd = 'not-allowed';
+      this.nd = "url('../assets/stop.png'),auto"
       console.log(this.color);
       this.notAllowed = true;
-      this.bg = ''
+      this.bg = '#F0F8FF'
+      this.ngclass ="custom-dropzone1"
     }
     else {
-      this.color = 'green';
-      this.bg = 'lightgrey'
+      this.color = '#184685';
+      this.bg = '#F0F8FF'
       this.notAllowed = false;
       console.log(this.color);
+      this.nd = "url('../assets/allowed.png'),auto"
+      this.ngclass ="custom-dropzone2"
       if (this.files && this.files.length >= 1) {
         this.onRemove(this.files[0]);
-        this.nd = '';
-
-
       }
       else {
         this.files.push(...event.addedFiles);
