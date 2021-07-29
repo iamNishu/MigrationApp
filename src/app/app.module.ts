@@ -9,7 +9,7 @@ import { InputComponent } from './Components/input/input.component';
 import {PageNotFoundComponent } from './Components/page-not-found/page-not-found.component';
 import { HomeComponent } from './Components/home/home.component';
 
- 
+
 const appRoutes: Routes = [
   {path: '', redirectTo: 'home' , pathMatch: 'full'}, 
   {path: 'home', component: HomeComponent}, 
