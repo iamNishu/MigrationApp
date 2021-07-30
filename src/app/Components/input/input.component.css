@@ -2,56 +2,30 @@
     width: 358px;
     height: 217px;
     border: hidden;
-    /* cursor: not-allowed; */
-  
-    /* border-spacing: 100ch; */
-  
-    /* comment starts
-    border: 10px dashed grey;
-     border-color: grey; 
-     border-width: 3px;
-     border-radius: 6px;
-     background-color: #ffffff; 
-      comment ends */
+ 
   
     margin: 0 11px;
-   /*  margin:  10px 11px  11px; */
+   
     margin-top: 10px;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='1' stroke-dasharray='20%2c 14' stroke-dashoffset='5' stroke-linecap='square'/%3e%3c/svg%3e");
-   /*  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='6' ry='6' stroke='%23333' stroke-width='3' stroke-dasharray='15%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
   
-    /* cursor: url("../h.png"), auto; */
-  /* cursor: url("../allowed.png"),auto;
-  cursor: url("../stop.png"),auto; */
-    /* cursor: url("https://groups.google.com/d/topic/clementine-player/nA-E0DAe6gI"),
-      auto; */
-  
-    /* pointer-events: auto; */
-    
-    /* border-inline-color: grey; */
-     
-    /* cursor: url("./../assets/Stop.svg.png"), auto; */
   }
   .custom-dropzone.ngx-dz-hovered{
     border: 3px dashed grey;
    
-    /* cursor: no-drop; */
+   
   }
   
   
   .custom-dropzone2 {
     width: 358px;
     height: 217px;
-    /* cursor: not-allowed; */
-    /* border-spacing: 100ch; */
+
    
     border-width: 3px;
     margin: 0 11px;
     margin-top: 10px;
-    /* cursor: url("https://groups.google.com/d/topic/clementine-player/nA-E0DAe6gI"),
-        auto; */
-    /* pointer-events: auto; */
-    /* border-inline-color: grey; */
+ 
     background-color: #ffffff;
     border: hidden;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%230089A2FF' stroke-width='1' stroke-dasharray='20%2c15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); /* cursor: url("./../assets/Stop.svg.png"), auto; */
@@ -59,39 +33,17 @@
   .custom-dropzone1 {
     width: 358px;
     height: 217px;
-    /* cursor: not-allowed; */
-    /* border-spacing: 100ch; */
-    
+
     border-width: 3px;
     margin: 0 11px;
     margin-top: 10px;
-    /* cursor: url("https://groups.google.com/d/topic/clementine-player/nA-E0DAe6gI"),
-        auto; */
-    /* pointer-events: auto; */
-    /* border-inline-color: grey; */
+
     background-color: #ffffff;
     border: hidden;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23EC3463' stroke-width='1' stroke-dasharray='20%2c14' stroke-dashoffset='8' stroke-linecap='square'/%3e%3c/svg%3e");
   }
   
-  /* .box.no-cursor {
-    cursor: default;
-  
-  }
-  
-  .box {
-    border: 1px solid lightgray;
-    padding: 10px;
-    border-radius: 5px;
-    border-color: white;
-    box-shadow: 0 0 5px gray;
-    cursor: pointer;
-    background: #353131;
-    border-width: 2px;
-    display: inline-block;
-    width: 300px;
-    height: 150px;
-  }
+ 
   
   .box:hover {
   background-color: dimgrey;
@@ -253,13 +205,10 @@
     border-color: #add8e6;
     border-width: 3px;
     margin: 0 11px;
-    /* cursor: url("https://groups.google.com/d/topic/clementine-player/nA-E0DAe6gI"),
     
-      auto; */
     cursor: pointer;
     pointer-events: auto;
-    /* cursor: url("../../Starbucks.jpg"), auto; */
-    /* border-inline-color: grey; */
+
     background-color: #ffffff;
   }
   
