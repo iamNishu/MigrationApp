@@ -11,8 +11,8 @@ import { HomeComponent } from './Components/home/home.component';
 
 
 const appRoutes: Routes = [
-  {path: '', redirectTo: 'home' , pathMatch: 'full'}, 
-  {path: 'home', component: HomeComponent}, 
+  {path: '', redirectTo: 'Input' , pathMatch: 'full'}, 
+  //{path: 'home', component: HomeComponent}, 
   {path: 'Input', component: InputComponent},
   { path: '**', component: PageNotFoundComponent }
   
